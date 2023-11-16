@@ -1,0 +1,33 @@
+name: attendance
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+1
+
+environment:
+  sdk: '>=2.19.4 <4.0.0'
+
+dependencies:
+  cloud_firestore: ^4.13.0
+  collection: ^1.17.2
+  dart_rss: ^3.0.1
+  easy_date_timeline: ^1.0.2
+  firebase_auth: ^4.13.0
+  firebase_core: ^2.22.0
+  flutter:
+    sdk: flutter
+  flutter_signin_button: ^2.0.0
+  google_sign_in: ^6.1.6
+  http: ^0.13.6
+  provider: ^6.1.1
+  weekday_selector: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
